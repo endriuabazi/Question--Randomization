@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        List<Question> questionPool = loadQuestionsFromFile("C:\\Users\\User\\Desktop\\Midterm-Project\\src\\questions.txt");
+        List<Question> questionPool = loadQuestionsFromFile("src\\questions.txt");
 
         if (questionPool.isEmpty()) {
             System.out.println("No questions loaded. Exiting.");
