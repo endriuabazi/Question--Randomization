@@ -22,9 +22,9 @@ After cloning the repo, is quite easily to run the application, go to main file 
 - [Project Structure]
   This quiz game application has three files.
   Quiz file is responsible for managing the quiz session.
-  Properties:
-    questionsList: A list that holds instances of the Question class. This list represents the pool of questions available for the quiz.
-    userScore: An integer that keeps track of the user's score during the quiz.
+ - Properties:
+   - questionsList: A list that holds instances of the Question class. This list represents the pool of questions available for the quiz.
+   - userScore: An integer that keeps track of the user's score during the quiz.
   Methods:
     startQuiz(): Initiates the quiz session. It shuffles the questionsList to randomize the order of questions and then iterates through each question, prompting the user for answers.
     calculateScore(): Computes and displays the user's final score at the end of the quiz session.
