@@ -21,22 +21,22 @@ This Java application is a simple quiz game where questions are randomly selecte
 After cloning the repo, is quite easily to run the application, go to main file and click run. Immediatly you will have into the terminal the first question appeared.
 - [Project Structure]
   This quiz game application has three files.
-  Quiz file is responsible for managing the quiz session.
+  -Quiz file is responsible for managing the quiz session.
  - Properties:
    - questionsList: A list that holds instances of the Question class. This list represents the pool of questions available for the quiz.
    - userScore: An integer that keeps track of the user's score during the quiz.
-  Methods:
-    startQuiz(): Initiates the quiz session. It shuffles the questionsList to randomize the order of questions and then iterates through each question, prompting the user for answers.
-    calculateScore(): Computes and displays the user's final score at the end of the quiz session.
-  The Question file represents an individual quiz question. 
-  Properties:
-    questionText: A string containing the text of the question.
-    correctAnswer: A string representing the correct answer to the question.
-    category: A string indicating the category to which the question belongs (e.g., Geography, History).
-  Methods:
-    displayQuestion(): Prints the question to the console, including the category and the question text.
-    checkAnswer(userAnswer): Takes a user-provided answer as an argument and checks whether it matches the correct answer. Returns a boolean indicating whether the user's answer is correct.
-  Main file is resposible for creating and initializing each of these upper mentioned classes in order to run the application.
+  -Methods:
+    -startQuiz(): Initiates the quiz session. It shuffles the questionsList to randomize the order of questions and then iterates through each question, prompting the user for answers.
+    -calculateScore(): Computes and displays the user's final score at the end of the quiz session.
+  -The Question file represents an individual quiz question. 
+  -Properties:
+    -questionText: A string containing the text of the question.
+    -correctAnswer: A string representing the correct answer to the question.
+    -category: A string indicating the category to which the question belongs (e.g., Geography, History).
+  -Methods:
+    -displayQuestion(): Prints the question to the console, including the category and the question text.
+    -checkAnswer(userAnswer): Takes a user-provided answer as an argument and checks whether it matches the correct answer. Returns a boolean indicating whether the user's answer is correct.
+  -Main file is resposible for creating and initializing each of these upper mentioned classes in order to run the application.
 - [Contributing]
   This project is worked by Suana Prebibaj and Endriu Abazi.
 - [File Format]
